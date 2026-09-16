@@ -8,7 +8,7 @@ An e-commerce analytics portfolio project covering sales, product, and customer 
 
 [View the dashboard PDF](dashboard/power-bi-sales-dashboard.pdf)
 
-The supplied dashboard is a static PDF export from Power BI. The editable Power BI project (`.pbix`) is not included, so slicers cannot be used in this repository preview.
+[Download the editable Power BI project](dashboard/power-bi-sales-dashboard.pbix) to explore and edit the dashboard in Power BI Desktop. The PDF and image previews on GitHub remain static.
 
 ## Project Objectives
 
@@ -23,10 +23,11 @@ The supplied dashboard is a static PDF export from Power BI. The editable Power 
 | --- | --- |
 | [analysis/ecommerce-sales-customer-analysis.xlsx](analysis/ecommerce-sales-customer-analysis.xlsx) | Original Excel workbook with source tables, cleaning documentation, prepared data, formulas, and PivotTables. |
 | [reports/ecommerce-analysis-report.pdf](reports/ecommerce-analysis-report.pdf) | Detailed analysis report in Indonesian, including findings, KPI definitions, and recommendations. |
+| [dashboard/power-bi-sales-dashboard.pbix](dashboard/power-bi-sales-dashboard.pbix) | Editable Power BI dashboard project. |
 | [dashboard/power-bi-sales-dashboard.pdf](dashboard/power-bi-sales-dashboard.pdf) | Static export of the dashboard created in Power BI. |
 | [assets/power-bi-sales-dashboard.png](assets/power-bi-sales-dashboard.png) | Dashboard preview rendered from the supplied PDF. |
 
-The three source files are preserved without content changes and renamed for consistent repository paths.
+The four source files are preserved without content changes and renamed for consistent repository paths.
 
 ## Dataset
 
@@ -115,8 +116,9 @@ The analysis is descriptive. The files do not establish causal drivers, profitab
 1. Start with the dashboard PDF for an overview.
 2. Read the report for definitions, detailed findings, and recommendations.
 3. Download the Excel workbook and inspect the performance sheets and `clean` dataset.
+4. Download the `.pbix` file and open it in Power BI Desktop to explore and edit the dashboard.
 
-The workbook contains saved results and query connections. Refreshing external sources may require configuring the original source paths. No standalone source CSVs or Power BI `.pbix` file were supplied.
+The workbook contains saved results and query connections. Refreshing external sources may require configuring the original source paths. The Power BI project is included in the `dashboard` folder. Refreshing its data may also require updating source paths to your local files. No standalone source CSVs were supplied.
 
 ## Author
 
